@@ -68,7 +68,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # === INPUT FILTER DI SIDEBAR ===
-st.sidebar.title("🚬 Mancaster Putihan")
+st.sidebar.title("🚬 ADIT GANTENG")
 stok_min = st.sidebar.number_input("Batas minimal stok", min_value=0, value=10)
 terjual_min = st.sidebar.number_input("Batas minimal terjual per bulan", min_value=0, value=100)
 harga_min = st.sidebar.number_input("Batas minimal harga produk", min_value=0.0, value=20000.0)
